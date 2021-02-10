@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: rgb(72, 79, 99);
+}
+
+.container{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#m{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.dice{
+    margin-right: 30px;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-family: 'Montez', cursive;
+    font-size: 9rem;
+    color: rgb(32, 160, 177);
+    text-shadow: 5px 05px #232931;
+}
+
+.dice p{
+    margin-top: 20px;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(32, 160, 177);
+}
+
+img{
+    width: 90%;
+}
+button{
+    margin-top: 30px;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(32, 160, 177);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 5%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montez', cursive;
+}
